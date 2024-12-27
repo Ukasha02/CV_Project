@@ -20,7 +20,7 @@ def get_ball_detections(
     Parameters
     ----------
     ball_detector : YoloV5
-        YoloV5 detector for balls
+        YoloV5 detector for ball
     frame : np.ndarray
         Frame to get the ball detections from
 
