@@ -30,6 +30,7 @@ class Team:
         self.name = name
         self.possession = 0
         self.passes = []
+        self.tackles = 0  # Counter for tackles made by the team
         self.color = color
         self.abbreviation = abbreviation
         self.text_color = text_color
@@ -121,3 +122,6 @@ class Team:
             if team.name == name:
                 return team
         return None
+    
+    
+

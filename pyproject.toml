@@ -2,7 +2,7 @@
 name = "Soccer Video Analytics"
 version = "0.1.0"
 description = ""
-authors = ["Diego Marvid <dmarvid@tryolabs.com>", "Diego Fernandez <dfernandez@tryolabs.com"]
+
 
 [tool.poetry.dependencies]
 python = "^3.9"
