@@ -1,3 +1,4 @@
+#filters
 from inference.colors import black, blue, green, sky_blue
 
 chelsea_filter = {

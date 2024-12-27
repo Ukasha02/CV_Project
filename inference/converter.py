@@ -127,7 +127,7 @@ class Converter:
 
         Parameters
         ----------
-        tracked_objects : List[norfair.tracker.TrackedObject]
+        tracked_object : List[norfair.tracker.TrackedObject]
             List of norfair.tracker.TrackedObject
 
         Returns

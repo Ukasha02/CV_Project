@@ -38,7 +38,7 @@ class Box:
         Returns
         -------
         np.ndarray
-            Image containing only the box
+            Image contain only the box
         """
         return img[
             self.top_left[1] : self.bottom_right[1],

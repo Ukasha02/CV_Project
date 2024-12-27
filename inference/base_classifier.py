@@ -26,7 +26,7 @@ class BaseClassifier(ABC):
         Returns
         -------
         result: List[str]
-            List of class names
+            List of class name
         """
         pass
 

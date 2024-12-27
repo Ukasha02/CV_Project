@@ -15,7 +15,7 @@ class BaseDetector(ABC):
         """
         Predicts the bounding boxes of the objects in the image
 
-        Parameters
+        Parameter
         ----------
 
         input_image: List[np.ndarray]

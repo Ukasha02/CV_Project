@@ -140,7 +140,7 @@ class NNClassifier(BaseClassifier):
         Returns
         -------
         List[Union[str, int]]
-            List of predictions
+            List of prediction
         """
 
         if not isinstance(input_image, list):

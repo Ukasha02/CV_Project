@@ -15,7 +15,7 @@ class YoloV5(BaseDetector):
         """
         Initialize detector
 
-        Parameters
+        Parameter
         ----------
         model_path : str, optional
             Path to model, by default None. If it's None, it will download the model with COCO weights

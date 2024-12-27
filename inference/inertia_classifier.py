@@ -19,7 +19,7 @@ class InertiaClassifier:
     ):
         """
 
-        Improves classification by using tracker IDs.
+        Improve classification by using tracker IDs.
         It uses past classifications of the object to filter out noise.
 
         Parameters

@@ -12,7 +12,7 @@ from inference.colors import all
 class HSVClassifier(BaseClassifier):
     def __init__(self, filters: List[dict]):
         """
-        Initialize HSV Classifier
+        Initialize HSV Classifiers
 
         Parameters
         ----------
