@@ -15,7 +15,7 @@ class Net(nn.Module):
     def __init__(self):
         super(Net, self).__init__()
         # 3 input image channel, 16 output channels, 3x3 square convolution kernel
-        self.conv1 = nn.Conv2d(3, 16, kernel_size=3, stride=2, padding=1)
+        self.conv1 = nn.Conv2d(3, 16, kernel_size=3, stride=3, padding=1)
         self.conv2 = nn.Conv2d(16, 32, kernel_size=3, stride=2, padding=1)
         self.conv3 = nn.Conv2d(32, 64, kernel_size=3, stride=2, padding=1)
         self.conv4 = nn.Conv2d(64, 64, kernel_size=3, stride=2, padding=1)
@@ -24,6 +24,7 @@ class Net(nn.Module):
         self.batchnorm1 = nn.BatchNorm2d(16)
         self.batchnorm2 = nn.BatchNorm2d(32)
         self.batchnorm3 = nn.BatchNorm2d(64)
+        self.pool = nn.MaxPool2d(2, 2)
         self.fc1 = nn.Linear(64 * 5 * 5, 512)
         self.fc2 = nn.Linear(512, 256)
         self.fc3 = nn.Linear(256, 4)
