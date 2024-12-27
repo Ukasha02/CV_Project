@@ -8,4 +8,5 @@ Instructions to Run:
 7. activate environment using command "poetry shell"
 8. To run possession module: " python run.py --possession --model models/ball.pt --video videos/soccer_possession.mp4 "
 9. To run passes module: " python run.py --passes --model models/ball.pt --video videos/soccer_passes.mp4 "
-10.Model will geenrate output file upon running with results
+10. Model will geenrate output file upon running with results
+11. We would adivse you to run this on python 3.9 so that it depedencies don't cause an issue
